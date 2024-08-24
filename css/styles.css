@@ -12766,7 +12766,6 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   z-index: 1;
-  height: 730px;
 }
 
 header.masthead::before {
