@@ -9258,6 +9258,14 @@ fieldset:disabled .btn {
   border-radius: 50% !important;
 }
 
+.eric {
+  background-color: #e74c3c;
+}
+
+.marcelo {
+  background-color: #3498db;
+}
+
 .rounded-pill {
   border-radius: var(--bs-border-radius-pill) !important;
 }
