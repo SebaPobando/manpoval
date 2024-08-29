@@ -9266,6 +9266,10 @@ fieldset:disabled .btn {
   background-color: #3498db;
 }
 
+.cristian {
+  background-color: white;
+}
+
 .rounded-pill {
   border-radius: var(--bs-border-radius-pill) !important;
 }
