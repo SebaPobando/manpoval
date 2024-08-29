@@ -12744,6 +12744,12 @@ p {
     font-size: 1.25em;
   }
 
+  .portfolio-item img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
     height: 1.5rem;
@@ -12770,6 +12776,47 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   z-index: 1;
+}
+
+.masthead-tribute {
+  position: relative;
+  padding-top: 25rem; /* Aumentado para bajar el texto */
+  padding-bottom: 10rem; /* Aumentado para dar más espacio */
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/logos/rodrigo-manriquez.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center; /* Centrado para mantener la imagen visible */
+  background-size: cover; /* Alternativamente, prueba con "contain" */
+  z-index: 1;
+  min-height: 100vh; /* Asegura que el contenedor tenga una altura mínima */
+}
+
+.masthead-tribute .masthead-heading {
+  font-size: 3.25rem; /* Tamaño de fuente grande similar al de Manpoval */
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.masthead-tribute::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Superposición negra semitransparente */
+  z-index: -1;
+}
+
+.historia-img {
+  width: 70%; /* Ajusta el ancho de la imagen al 50% de su tamaño contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 header.masthead::before {
