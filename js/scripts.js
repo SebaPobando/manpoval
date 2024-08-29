@@ -51,4 +51,24 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    //Cerrar videos de modales
+            // Escuchar cuando el DOM esté completamente cargado
+            document.addEventListener('DOMContentLoaded', function () {
+                // Seleccionar todos los modales
+                var modales = document.querySelectorAll('.portfolio-modal');
+                
+                modales.forEach(function (modal) {
+                    // Añadir un listener al evento de cierre del modal
+                    modal.addEventListener('hidden.bs.modal', function () {
+                        // Seleccionar todos los iframes dentro del modal
+                        var iframes = modal.querySelectorAll('iframe');
+                        
+                        // Resetear el src de cada iframe para detener los videos
+                        iframes.forEach(function (iframe) {
+                            iframe.src = iframe.src;
+                        });
+                    });
+                });
+            });
+
 });
