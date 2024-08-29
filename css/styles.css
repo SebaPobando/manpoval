@@ -662,6 +662,24 @@ progress {
   height: auto;
 }
 
+.memoria-img {
+  width: 350px; /* Ajusta el tamaño de la imagen */
+  filter: grayscale(100%); /* Aplica blanco y negro */
+  margin-top: 20px; /* Opcional: añade margen superior para separar del texto */
+  border-radius: 200px;
+  transition: filter 1s ease;
+}
+
+.memoria-img:hover {
+  cursor: pointer;
+  filter: none; /* Vuelve al color original al pasar el mouse */
+  transition: 1s ease;
+}
+
+.nombre-rodrigo {
+  color: #e74c3c;
+}
+
 .figure {
   display: inline-block;
 }
