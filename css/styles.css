@@ -663,16 +663,20 @@ progress {
 }
 
 .memoria-img {
-  width: 350px; /* Ajusta el tamaño de la imagen */
-  filter: grayscale(100%); /* Aplica blanco y negro */
-  margin-top: 20px; /* Opcional: añade margen superior para separar del texto */
+  width: 350px;
+  /* Ajusta el tamaño de la imagen */
+  filter: grayscale(100%);
+  /* Aplica blanco y negro */
+  margin-top: 20px;
+  /* Opcional: añade margen superior para separar del texto */
   border-radius: 200px;
   transition: filter 1s ease;
 }
 
 .memoria-img:hover {
   cursor: pointer;
-  filter: none; /* Vuelve al color original al pasar el mouse */
+  filter: none;
+  /* Vuelve al color original al pasar el mouse */
   transition: 1s ease;
 }
 
@@ -12766,7 +12770,7 @@ p {
     height: 400px;
     object-fit: cover;
     width: 100%;
-}
+  }
 
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
@@ -12788,31 +12792,39 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/logos/manpoval-principal2.jpg");
+  background-image: url("../assets/img/logos/manpoval-banner.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
   z-index: 1;
+  height: 100vh;
+
 }
 
 .masthead-tribute {
   position: relative;
-  padding-top: 25rem; /* Aumentado para bajar el texto */
-  padding-bottom: 10rem; /* Aumentado para dar más espacio */
+  padding-top: 25rem;
+  /* Aumentado para bajar el texto */
+  padding-bottom: 10rem;
+  /* Aumentado para dar más espacio */
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/logos/rodrigo-manriquez.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center; /* Centrado para mantener la imagen visible */
-  background-size: cover; /* Alternativamente, prueba con "contain" */
+  background-position: center center;
+  /* Centrado para mantener la imagen visible */
+  background-size: cover;
+  /* Alternativamente, prueba con "contain" */
   z-index: 1;
-  min-height: 100vh; /* Asegura que el contenedor tenga una altura mínima */
+  min-height: 100vh;
+  /* Asegura que el contenedor tenga una altura mínima */
 }
 
 .masthead-tribute .masthead-heading {
-  font-size: 3.25rem; /* Tamaño de fuente grande similar al de Manpoval */
+  font-size: 3.25rem;
+  /* Tamaño de fuente grande similar al de Manpoval */
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.2;
@@ -12826,15 +12838,20 @@ header.masthead {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Superposición negra semitransparente */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Superposición negra semitransparente */
   z-index: -1;
 }
 
 .historia-img {
-  width: 70%; /* Ajusta el ancho de la imagen al 50% de su tamaño contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  display: block; /* Asegura que la imagen se comporte como un bloque */
-  margin: 0 auto; /* Centra la imagen horizontalmente */
+  width: 70%;
+  /* Ajusta el ancho de la imagen al 50% de su tamaño contenedor */
+  height: auto;
+  /* Mantiene la proporción de la imagen */
+  display: block;
+  /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto;
+  /* Centra la imagen horizontalmente */
 }
 
 header.masthead::before {
@@ -13292,22 +13309,27 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .btn-social {
-  font-size: 1.5rem; /* Tamaño más grande para los íconos */
+  font-size: 1.5rem;
+  /* Tamaño más grande para los íconos */
   color: #ffffff;
   background-color: #343a40;
   border-radius: 50%;
-  padding: 0.75rem; /* Tamaño del círculo */
+  padding: 0.75rem;
+  /* Tamaño del círculo */
   transition: background-color 0.3s ease;
 }
 
 .btn-social:hover {
-  background-color: #495057;
+  background-color: #E50046;
 }
 
 .social-title {
-  margin-bottom: 1.5rem; /* Aumenta el espacio entre el título y los íconos */
-  font-size: 1.25rem; /* Tamaño del texto del título */
-  color: #343a40; /* Color del texto del título */
+  margin-bottom: 1.5rem;
+  /* Aumenta el espacio entre el título y los íconos */
+  font-size: 1.25rem;
+  /* Tamaño del texto del título */
+  color: #343a40;
+  /* Color del texto del título */
 }
 
 .footer p {
@@ -13322,27 +13344,28 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 768px) {
   .col-lg-4 {
-      text-align: center;
+    text-align: center;
   }
 
   .col-lg-4.text-lg-center {
-      order: 1;
-      margin-bottom: 1rem;
+    order: 1;
+    margin-bottom: 1rem;
   }
 
   .col-lg-4.text-lg-start {
-      order: 2;
-      margin-bottom: 1rem;
+    order: 2;
+    margin-bottom: 1rem;
   }
 
   .col-lg-4.text-lg-end {
-      order: 3;
+    order: 3;
   }
 }
 
 .video-responsive {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 ratio */
+  padding-bottom: 56.25%;
+  /* 16:9 ratio */
   padding-top: 25px;
   height: 0;
 }
